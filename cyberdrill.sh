@@ -7,6 +7,7 @@ while true; do
 # Define ANSI color codes
 RED='\033[0;31m'
 CYAN='\033[0;36m'
+YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Display the heading with a banner
@@ -17,9 +18,9 @@ echo -e "     | |    _   _| |__   ___ _ __ | | | | _ __ |_|| || |      "
 echo -e "     | |   | | | | '_ \ / _ \ '__|| | | || '__|| || || |      "
 echo -e "     | |___| |_| | |_) |  __/ |   | |_| || |   | || || |      "
 echo -e "      \_____\__, |_.__/ \___|_|   |___ / |_|   |_||_||_|      "
-echo -e "             __/ |                                            "
-echo -e "            |___/${NC}"
-echo -e "${RED}                                  SECURITY EXERCISE TOOL${NC}"
+echo -e "             __/ |                               Toolkit      "
+echo -e "            |___/                       ${NC}"
+echo -e "${RED}                                  Developed By Jershon Paul R${NC}"
 echo -e "${WHITE}===========================================================${NC}"
 
 
